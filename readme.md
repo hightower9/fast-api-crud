@@ -1,0 +1,3 @@
+- Create virtual env `python -m venv venv` then run `venv\Scripts\activate` to activate the environment.
+- Install dependencies `pip install -r requirements.txt`.
+- Run server `uvicorn index:app --reload` use `--port 8005` to change default port of 8000
